@@ -14,6 +14,10 @@ def setup_defaults():
     frappe.db.set_value("Libermatic Settings", None, "setup_complete", 1)
 
 
+def after_install():
+    setup_defaults()
+
+
 def _update_settings():
     def update(doctype, params):
         doc = frappe.get_single(doctype)

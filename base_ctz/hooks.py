@@ -56,7 +56,7 @@ app_include_js = "/assets/js/base_ctz.min.js"
 # ------------
 
 # before_install = "base_ctz.install.before_install"
-# after_install = "base_ctz.install.after_install"
+after_install = "base_ctz.install.after_install"
 
 # Desk Notifications
 # ------------------
