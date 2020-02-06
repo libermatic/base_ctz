@@ -7,6 +7,11 @@ export default function libermatic_settings() {
             method: 'base_ctz.install.setup_defaults',
             freeze: true,
           });
+        } catch (e) {
+          frappe.msgprint({
+            message: 'Whoops! Something happened. Please try again.',
+            indicator: 'orange',
+          });
         } finally {
           frm.reload_doc();
         }
