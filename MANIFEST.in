@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include base_ctz *.css
+recursive-include base_ctz *.csv
+recursive-include base_ctz *.html
+recursive-include base_ctz *.ico
+recursive-include base_ctz *.js
+recursive-include base_ctz *.json
+recursive-include base_ctz *.md
+recursive-include base_ctz *.png
+recursive-include base_ctz *.py
+recursive-include base_ctz *.svg
+recursive-include base_ctz *.txt
+recursive-exclude base_ctz *.pyc
