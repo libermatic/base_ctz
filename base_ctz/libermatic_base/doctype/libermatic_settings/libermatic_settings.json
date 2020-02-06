@@ -1,0 +1,37 @@
+{
+ "creation": "2020-02-06 21:55:27.057498",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "setup_complete"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "setup_complete",
+   "fieldtype": "Check",
+   "label": "Setup Complete",
+   "read_only": 1
+  }
+ ],
+ "issingle": 1,
+ "modified": "2020-02-06 21:55:27.057498",
+ "modified_by": "Administrator",
+ "module": "Libermatic Base",
+ "name": "Libermatic Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "role": "System Manager",
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
